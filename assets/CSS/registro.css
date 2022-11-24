@@ -1,0 +1,120 @@
+@import url(./generales.css);
+
+.mainr{
+    display: flex;
+    justify-content: center;
+}
+
+.resgis {
+    margin: 10%;
+    flex-direction: column;
+    background-color: #c8d4e7a9;
+    border-radius: 10px;
+    border: 7px solid #18487F;
+    text-align: center;
+    width: 30%;
+}
+
+.resgis h3{
+    font-family: 'Chewy', cursive;
+    font-size: 30px;
+    padding: 15px;
+    color: #090e70;
+}
+
+.form_regis{
+    position: relative;
+    left: 10%;  
+}
+
+.form_regis label{
+    line-height: 3;
+}
+
+.form_regis input{
+    margin: 10px 40px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 2px solid #090e70;
+}
+
+.form_regis input:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.input{
+    display: flex;
+}
+
+#contraseña{
+    margin-left: 13px;
+}
+
+#nombre{
+    margin-left: 32px;
+}
+
+/* BOTON */
+
+.resgis a button{
+    padding: 10px 50px;
+    margin: 20px ;
+    background-color: #345a85;
+    border-radius: 8px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.resgis a button:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.resgis #p2{
+    margin: 10px;
+}
+
+/*----------------------------- RESPONSIVE --------------------------*/
+
+@media only screen and (max-width:920px){
+
+    .mainr{
+        margin-left: -12px;
+    }
+
+    .resgis {
+        margin: 50% ;
+        width: 90%;
+    }
+    
+    .form_regis input{
+        margin: 10px 40px;
+        padding: 5px;
+
+    }
+
+    .form_regis input:hover{
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+    
+    
+    /* BOTON */
+    
+    .resgis a button{
+        padding: 10px 50px;
+        margin: 20px ;
+        background-color: #345a85;
+        border-radius: 8px;
+        color: #fff;
+        cursor: pointer;
+    }
+    
+    .resgis a button:hover{
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    }
+    
+    .resgis #p2{
+        margin: 10px;
+    }
+}
+
+

@@ -1,0 +1,61 @@
+@import url(../CSS/generales.css);
+
+.container-pariental button{
+    background-color: #336c88;
+    border-radius: 30px;
+    margin: 20px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.container-pariental p{
+    background-color: #c7d5e6;
+    box-shadow: 0px 3px 1px 5px #445d84;
+    border-radius: 20px;
+    font-size: 22px;
+    padding: 15px;
+    margin:auto;
+    width: 80%;
+}
+
+.container-pariental h2{
+    margin-top: 90px;
+    margin-bottom: 10px;
+    text-shadow: 3px 3px 1px  #000000;
+    text-align: center;
+    color:#6a7fa0;
+    font-size: 35px;
+    font-family: 'Chewy', cursive;
+}
+
+/* DIV PARA EL FLEX DE LA PARTE DE ARRIBA */
+
+.pariental-flex{
+    display: flex;
+}
+
+/* DIV PARA LA IMAGEN */
+
+.pariental-img {
+    margin: 70px 80px;
+}
+
+.pariental-img img{
+    box-shadow: 0px 3px 1px 5px #216080;
+    border-radius: 20px;
+    width: 240px;
+}
+
+/* DIV PARA EL TEXTO PRINCIPAL */
+
+.pariental-texto h2{
+    color: #000000;
+    text-shadow: 3px 3px 1px  #707f9f;
+    margin-top: 10px;
+}
+
+/* ANATOMIA */
+
+.textos{
+    margin: 50px;
+}

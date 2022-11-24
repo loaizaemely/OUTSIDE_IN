@@ -1,0 +1,81 @@
+@import url(../CSS/generales.css);
+
+.container-temporal button{
+    background-color: #336c88;
+    border-radius: 30px;
+    margin: 40px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.container-temporal p{
+    background-color: #e1e0ff;
+    box-shadow: 0px 3px 1px 5px #03015f;
+    border-radius: 20px;
+    font-size: 22px;
+    padding: 15px;
+    margin:auto;
+    width: 80%;
+}
+
+.container-temporal h2{
+    margin-top: 90px;
+    margin-bottom: 10px;
+    text-shadow: 3px 3px 1px  #35328c;
+    text-align: center;
+    color:#0c0667;
+    font-size: 35px;
+    font-family: 'Chewy', cursive;
+}
+
+/* DIV PARA EL FLEX DE LA PARTE DE ARRIBA */
+
+.temporal-flex{
+    display: flex;
+}
+
+/* DIV PARA LA IMAGEN */
+
+.temporal-img {
+    margin: 70px 80px;
+    
+}
+
+.temporal-img img{
+    box-shadow: 0px 3px 1px 5px #35328c;
+    border-radius: 20px;
+    width: 270px;
+}
+
+.temporal-texto{
+    margin-top: -60px;
+}
+
+/* ANATOMIA */
+
+.anatomia{
+    text-align: center;
+}
+
+/* DIV DE LA ESCAMOSA Y LA MASTOIDEA */
+
+.esca-masto{
+    display: flex;
+    margin: 70px;
+}
+
+.escamosa{
+    width: 50%;
+}
+
+.mastoidea{
+    width: 50%;
+}
+
+/* DIV DE LA TMPANICA Y PETROSA */
+
+.tim_petro{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px;
+}

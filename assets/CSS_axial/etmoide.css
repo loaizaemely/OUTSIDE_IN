@@ -1,0 +1,77 @@
+@import url(../CSS/generales.css);
+
+.container-etmoide button{
+    background-color: #336c88;
+    border-radius: 30px;
+    margin: 20px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.container-etmoide p{
+    background-color: #d2dde3;
+    box-shadow: 0px 3px 1px 5px #2a7aa3;
+    border-radius: 20px;
+    font-size: 22px;
+    padding: 15px;
+    margin:auto;
+    width: 80%;
+}
+
+.container-etmoide h2{
+    margin-top: 90px;
+    margin-bottom: 10px;
+    text-shadow: 3px 3px 1px  #000000;
+    text-align: center;
+    color:#41b0e2;
+    font-size: 35px;
+    font-family: 'Chewy', cursive;
+}
+
+
+/* DIV PARA EL FLEX DE LA PARTE DE ARRIBA */
+
+.etmoide-flex{
+    display: flex;
+}
+
+/* DIV PARA LA IMAGEN */
+
+.etmoide-img {
+    margin: 160px 80px;
+    
+}
+
+.etmoide-img img{
+    box-shadow: 0px 3px 1px 5px #2a7aa3;
+    border-radius: 20px;
+    width: 340px;
+}
+
+/* DIV PARA EL TEXTO PRINCIPAL */
+
+.etmoide-texto h2{
+    color: #000000;
+    text-shadow: 3px 3px 1px  #6ea4c6;
+    margin-top: 10px;
+}
+
+/* DIV DE LAS LAMINAS */
+
+.laminas{
+    display: flex;
+}
+
+.perpendicular{
+    width: 50%;
+}
+
+.cribosa{
+    width: 50%;
+}
+
+/* DIV DE LOS LABERINTOS */
+.laberintos{
+    margin: 30px;
+}
+

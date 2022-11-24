@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Chewy&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+*::selection{
+    background-color: #574fcc;
+    color: #fffbfb;
+}
+
+/* Propiedades principales */
+
+body{
+    background-color: rgba(207, 207, 230, 0.733);
+}
+
+.container-pelvica p{
+    border-radius: 20px;
+    font-size: 22px;
+    padding: 15px 20px;
+    margin:auto;
+    width: 80%;
+}
+
+.container-pelvica h2{
+    margin-bottom: 30px;
+    text-align: center;
+    text-shadow: 3px 3px 1px  #000000;
+    font-size: 35px;
+    font-family: 'Chewy', cursive;
+}
+
+.container-pelvica a{
+    color: #000000;
+}
+
+.container-pelvica a:hover{
+    color: #535ba3;
+}
+
+/* NAVEGACIÓN */
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #9aaac2d0;
+    border: 3px solid #3E546D;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.nav img{
+    margin: 10px 20px;
+    width: 60px;
+    height: 60px;
+    border-radius: 40px;
+}
+
+.enlaces{
+   margin-left: 200px;
+   margin-right: 20px;
+   padding: 30px;
+}
+
+.enlaces .ingles{
+    margin-right: 50px;
+}
+
+.enlaces a{
+    text-decoration: none;
+    font-family:cursive;
+    font-size: 18px;
+}
+
+.enlaces a:hover{
+    color: rgb(109, 107, 226);
+}
+
+/*CONTENEDOR DE LA IMAGEN*/
+
+.pelvica-img {
+    margin: 70px 100px;
+    width: 30%;
+}
+
+.pelvica-img img{
+    box-shadow: 0px 3px 1px 5px #54778f;
+    border-radius: 20px;
+    width: 245px;
+}
+
+/* DIV PARA EL FLEX */
+
+.inferior-pelvica{
+    display: flex;
+}
+
+/* DIV DEL TEXTO CINTURA PÉLVICA */
+
+.pelvica-texto h2{
+    color: #7582d8;
+    margin: 30px;
+}
+
+.pelvica-texto p{
+    background-color: #c3dff4;
+    box-shadow: 0px 3px 1px 5px #578eaa;
+}
+
+/* DIV DE LOS BOTONES */
+
+.botones button{
+    background-color: #6452cc;
+    padding: 10px;
+    margin: 60px 40px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+/* DIV FUNCIONES Y PARTES */
+.funciones_partes h2{
+    color: #ad61ae;
+}
+
+.funciones_partes #funciones{
+    background-color: #edc6e5;
+    box-shadow: 0px 3px 1px 5px #c68ee2;
+}
+
+.funciones_partes #partes{
+    background-color: #c3dff4;
+    box-shadow: 0px 3px 1px 5px #5099d4;
+    margin-top: 120px;
+}
+
+/* DIV DE ESTILO A LOS H2 Y P */
+
+.estilo h2{
+    color: #467caf;
+    margin-top: 100px;
+}
+
+.estilo p{
+    background-color: #c3dff4;
+    box-shadow: 0px 3px 1px 5px #5099d4;
+}
+
+/* DIV DE LA PELVIS MENOR Y MAYOR */
+
+.pelvis{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* DIV DE DEL GINECOIDE Y EL ANTROPOIDE */
+
+.gine_antro{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* DIV DE EL ANDROIDE Y PLATIPELOIDE */
+
+.andro_plati{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* DIV DEL HUESO COXAL */
+
+.coxal h2{
+    color: #ad61ae;
+    margin-top: 150px;
+}
+
+.coxal p{
+    background-color: #edc6e5;
+    box-shadow: 0px 3px 1px 5px #c68ee2;
+}
+
+/* PIE DE PÁGINA SIGNIFICADOS */
+
+.significados-pelvica h2{
+    margin-top: 170px;
+    margin-left: 40px;
+    color: #000000;
+    text-shadow: 3px 3px 1px  #a79d11;
+    font-size: 35px;
+    font-family: 'Chewy', cursive;
+}
+
+.significados-pelvica p{
+    background-color: #c3c7ca;
+    box-shadow: 0px 3px 1px 5px #9e7212;
+    border-radius: 20px;
+    font-size: 22px;
+    padding: 15px 30px;
+    margin: 30px 30px;
+    width: 70%;
+}
+
+.significados-pelvica button{
+    background-color: #afb136;
+    border-radius: 30px;
+    height: 40px;
+    padding: 10px;
+    margin: 10px 40px;
+    cursor: pointer;
+}
+
+.significados-pelvica a{
+    color: #000000;
+    text-decoration: none;  
+}
+
+.significados-pelvica a:hover{
+    background-color: #b3b44f ;
+}

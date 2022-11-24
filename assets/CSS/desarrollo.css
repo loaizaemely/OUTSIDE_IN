@@ -1,0 +1,61 @@
+@import url(./generales.css);
+
+/*------- NAVEGACIÓN ------- */
+
+/* IMAGEN , LOGO */
+
+
+
+.arriba{
+    display: flex;
+}
+
+.arriba img{
+    width: 180px;
+    margin: 10px 80px;
+    border-radius: 20px;
+    box-shadow: 15px 5px 3px 5px #99b9e0;
+}
+
+.arriba h1{
+    font-size: 60px;
+    color: #C8ABEE;
+    -webkit-text-stroke: 1px black;
+    margin: 15px ;
+    margin-left: 220px;
+    text-align: center;
+}
+
+/* ---- ABAJO -- */
+
+.abajo h2{
+    color: #cd95df;
+    text-shadow: 3px 3px 1px  #000;
+    text-align: center;
+    margin-top: 80px;
+    font-size: 40px;
+}
+
+.parrafo {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    margin-top: 20px;
+}
+
+.parrafo p{
+    text-align: center;
+    background-color: #f6dcff;
+    box-shadow: 0px 3px 1px 5px #6e3e81;
+    border-radius: 30px;
+    width: 45%;
+    padding: 30px;
+    font-size: 20px;
+}
+
+.abajo img{
+    position:absolute;
+    top: 150px;
+    left: 730px;
+    width: 360px;
+}

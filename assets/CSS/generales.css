@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Chewy&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+*::selection{
+    background-color: #574fcc;
+    color: #fffbfb;
+}
+
+body{
+    background-color: rgba(207, 207, 230, 0.733);
+}
+
+/* NAVEGACION */
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #9aaac2d0;
+    border: 3px solid #3E546D;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.nav img{
+    margin: 10px 20px;
+    width: 60px;
+    height: 60px;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+
+.enlaces{
+   margin-left: 200px;
+   margin-right: 20px;
+   padding: 30px;
+   transition: all 0.7s ease-out 0s;
+}
+
+
+.enlaces .ingles{
+    margin-right: 50px;
+}
+
+.enlaces a{
+    text-decoration: none;
+    font-family:cursive;
+    font-size: 18px;
+}
+
+.enlaces a:hover{
+    color: rgb(109, 107, 226);
+}
+
+/* MENU */
+
+.ventana {
+    position: absolute;
+    top: 100px;
+    left: 10px;
+    background: rgb(195, 191, 230);
+    border-radius: 5px;
+    border-right: 10px solid rgb(104, 110, 182);
+    font-size: 20px;
+    text-align: center;
+    padding: 40px;
+    visibility: hidden;
+    opacity: 0;
+    z-index: 1000;
+    height: 90%;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.ventana #opciones {
+    margin: 70px 5px;
+}
+
+.ventana.active {
+    visibility: visible;
+    opacity: 1;
+    transition: all 0.4s ease-in-out 0s;
+}

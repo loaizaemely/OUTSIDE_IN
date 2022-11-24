@@ -1,0 +1,86 @@
+@import url(./generales.css);
+
+body{
+    position: relative;
+}
+
+/*Propiedades principales*/
+
+.main{
+    display: flex;
+}
+
+/*-------- PARTE IZQUIERDA --------*/
+
+.izquierda {
+    width: 30%;
+}
+
+.izquierda img {
+    width: 230px;
+    margin: 10px 70px;
+    border-radius: 20px;
+    box-shadow: 15px 5px 1px 5px #969FAA;
+}
+
+
+.izquierda .info{
+    background-color: #c3e4ece1;
+    margin: 55px 60px;
+    padding: 20px;
+    text-align: center;
+    height: 130px;
+    width: 270px;
+}
+
+/*-------- PARTE DERECHA --------*/
+
+.derecha{
+    width: 70%;
+    text-align: center;
+}
+
+.derecha h3 {
+    font-family: 'Chewy', cursive;
+    font-size: 20px;
+    font-weight: 6px;
+    padding: 10px;
+}
+
+
+.derecha h2{
+    font-family: 'Chewy', cursive;
+    text-shadow: 4px 5px 1px #8196AE;
+    color: #31445a;
+    font-size: 35px;
+    margin: 20px;
+}
+
+.imagenes{
+    display: flex;
+    margin: 40px 90px;
+    background-color: rgba(213, 213, 228, 0.733);
+    width: 80%;
+    
+}
+
+.apen{
+    width: 50%;
+    border: 1px solid #3E546D;
+}
+
+.axi{
+    width: 50%;
+    border: 1px solid #3E546D;
+}
+
+.apen img{
+    width: 200px;
+
+}
+
+.axi img{
+    width: 200px;
+    margin: 30px;
+    
+}

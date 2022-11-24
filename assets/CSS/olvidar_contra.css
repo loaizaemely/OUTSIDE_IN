@@ -1,0 +1,111 @@
+@import url(./generales.css);
+ 
+/* IMAGEN Y NOMBRE */
+
+.logo_nombre{
+    display: flex;
+    justify-content: center;
+}    
+
+.logo_nombre img{
+    width: 200px;
+    margin: 50px 80px;
+    border-radius: 20px;
+    box-shadow: 10px 5px 1px 5px #969FAA;
+}
+
+.logo_nombre p{
+    font-family: 'Chewy', cursive;
+    text-align: center;
+    font-size: 70px;
+    color: #C8ABEE;
+    -webkit-text-stroke: 3px black;
+    margin: 40px 80px;
+}
+
+/* TITULOS */
+
+.titulos {
+    font-family: 'Chewy', cursive;
+    text-align: center;
+    margin: 20px;
+}
+
+/* INPUTS Y BOTONES */
+
+.ingreso{
+    margin-top: 50px;
+}
+
+.ingreso p{
+    font-family: 'Chewy', cursive;
+    font-size: 20px;
+    margin: 10px 40px;
+}
+
+.ingreso #input_correo{
+    width: 100%;
+    background-color: #ECECF7;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 0px 40px;
+    border: 2px solid #a4a4d3;
+}
+
+.ingreso #btn{
+    background-color: #A59AB3;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 40px;
+    cursor: pointer;
+}
+
+@media only screen and (max-width:960px){
+
+    .logo_nombre img{
+        width: 120px;
+        margin: 50px 20px;
+        border-radius: 20px;
+        box-shadow: 3px 3px 1px 1px #969FAA;
+    }
+    
+    .logo_nombre p{
+        text-align: center;
+        font-size: 45px;
+        color: #C8ABEE;
+        margin: 40px 20px;
+    }
+    
+    /* TITULOS */
+    
+    .titulos {
+        margin: 10px;
+        font-size: 20px;
+    }
+    
+    /* INPUTS Y BOTONES */
+    
+    .ingreso{
+        margin-top: 50px;
+    }
+    
+    .ingreso p{
+        font-size: 20px;
+        margin: 10px 40px;
+    }
+    
+    .ingreso #input_correo{
+        width: 300px;
+        background-color: #ECECF7;
+        border-radius: 10px;
+        padding: 15px;
+        margin:  -20px;
+        border: 2px solid #a4a4d3;
+    }
+    
+    .ingreso #btn{
+        padding: 10px;
+        margin: 60px 10px;
+    }
+    
+}

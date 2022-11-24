@@ -1,0 +1,141 @@
+@import url(../CSS/generales.css);
+
+/*Propiedades principales*/
+
+.container-esfenoides p{
+    background-color: #d0caf1;
+    box-shadow: 0px 3px 1px 5px #826fdc;
+    border-radius: 20px;
+    font-size: 22px;
+    padding: 15px;
+    margin: auto;
+    width: 90%; 
+}
+
+.container-esfenoides h2{
+    margin-top: 100px;
+    margin-bottom: 20px;
+    text-shadow: 3px 3px 1px  #000000;
+    color: #6452cc;
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Chewy', cursive;
+}
+
+.container-esfenoides a{
+    color: #000000;
+}
+
+.container-esfenoides a:hover{
+    color: #352bc7;
+   
+}
+
+/*CONTENEDOR DEL FLEX*/
+
+.div-esfenoides{
+    display: flex;
+}
+
+/* div de la imagen */
+.esfe-img {
+    margin: 97px 100px;
+    width: 30%;
+}
+
+.esfe-img img{
+    box-shadow: 0px 3px 1px 5px #8676cc;
+    border-radius: 20px;
+    width: 245px;
+}
+
+
+/*CONTENEDOR DEl texto principal*/
+
+.esfe-text h2{
+    text-shadow: 3px 3px 1px  #826fdc;
+    color:#000000;
+    margin: 20px;
+}
+
+/* DIV DE LOS BOTONES */
+
+.botones{
+    text-align: center;
+}
+
+.botones button{
+    background-color: #6452cc;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+
+/* span de la anatomía */
+
+.container-span {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 30px;
+}
+
+/* div del cuerpo y la apofisis */
+
+.cuerpo-apofisis{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* div de las alas mayores y menores */
+
+.alas{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px;
+}
+
+/* SIGNIFICADOS DE ESFONOIDES */
+
+.significados-esfonoides h2{
+    margin-top: 170px;
+    margin-left: 50px;
+    color: #000000;
+    text-shadow: 3px 3px 1px  #a79d11;
+    font-size: 35px;
+    font-family: 'Chewy', cursive;
+}
+
+.significados-esfonoides p{
+    background-color: #c3c7ca;
+    box-shadow: 0px 3px 1px 5px #9e7212;
+    border-radius: 20px;
+    font-size: 22px;
+    padding: 15px 30px;
+    margin: 30px 30px;
+    width: 70%;
+}
+
+.significados-esfonoides button{
+    background-color: #afb136;
+    border-radius: 30px;
+    height: 40px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+
+.significados-esfonoides a{
+    color: #000000;
+    text-decoration: none;
+}
+
+.significados-esfonoides a:hover{
+    background-color: #b3b44f ;
+}
+
+
+

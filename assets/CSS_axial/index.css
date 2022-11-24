@@ -1,0 +1,10 @@
+/* ESQUELETO AXIAL */
+@import url(./axial.css);
+@import url(./neuro.css);
+
+/* partes neurocraneo */
+@import url(./esfenoides.css);
+@import url(./etmoide.css);
+@import url(./frontal.css);
+@import url(./temporal.css);
+@import url(./pariental.css);

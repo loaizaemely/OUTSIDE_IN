@@ -1,0 +1,123 @@
+@import url(../CSS/generales.css);
+
+/*Propiedades principales*/
+
+.container{
+    display: flex;
+ 
+}
+
+/*-------- PARTE izquierda --------*/
+
+.izquierda_imagen{
+    width: 40%;
+}
+
+.izquierda_imagen img{
+    margin-left: 40px;
+    position: fixed;
+}
+
+
+/*-------- PARTE DERECHA --------*/
+
+.derecha{
+    width: 60%;
+}
+
+/*-------- PARTE DERECHA texto de que es --------*/
+.derecha-esqueletoaxial{
+    margin: 20px;
+    width: 90%;
+}
+
+.derecha-esqueletoaxial h2{
+    margin: 30px;
+    text-shadow: 3px 3px 1px  #5b6ea1;
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Chewy', cursive;
+}
+
+
+.derecha-esqueletoaxial p{
+    background-color: #c3c7ca;
+    box-shadow: 0px 3px 1px 5px #5b6ea1;
+    border-radius: 20px;
+    font-size: 20px;
+    padding: 20px;
+}
+
+/*-------- PARTE DERECHA texto de funciones --------*/
+
+.derecha-funciones{
+    margin: 20px;
+    width: 90%;
+}
+
+.derecha-funciones h2{
+    margin: 30px;
+    text-shadow: 3px 3px 1px  #000000;
+    text-align: center;
+    color: #8696C5;
+    font-size: 35px;
+    font-family: 'Chewy', cursive;
+}
+
+.derecha-funciones p{
+    background-color: #c3c7ca;
+    box-shadow: 0px 3px 1px 5px #5b6ea1;
+    border-radius: 20px;
+    font-size: 20px;
+    padding: 15px;
+}
+
+.span_contenedor{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/*-------- PARTE DERECHA container-cuadros --------*/
+
+.container-cuadros{
+    display: flex;
+    justify-content: center;
+}
+
+/* cuadro 1*/
+
+.cuadro1{
+    border: 3px solid #3452ac;
+    margin: 50px 40px;
+    text-align: center;
+    width: 290px;
+  
+}
+
+.container-cuadros p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+}
+
+.container-cuadros a{
+    display: block;
+    color: #1f1e24;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 18px;
+    background-color: #aa8dcf;
+    padding: 20px;
+}
+
+.container-cuadros a:hover{
+    color: #710080;
+}
+
+
+/* cuadro 2*/
+
+.cuadro2{
+    border: 3px solid #3452ac;
+    margin: 50px 60px;
+    text-align: center;
+    width: 290px;
+}

@@ -1,0 +1,206 @@
+@import url(./generales.css);
+
+/*Propiedades del logo y nombre*/
+
+.flex_img-title{
+    display: flex;
+}
+
+.flex_img-title h1{
+    font-family: 'Chewy', cursive;
+    text-align: center;
+    font-size: 70px;
+    color: #C8ABEE;
+    -webkit-text-stroke: 1px black;
+    margin: 15px 25%;
+}
+
+.flex_img-title img {
+    width: 270px;
+    margin: 50px 80px;
+    border-radius: 20px;
+    box-shadow: 15px 5px 1px 5px #969FAA;
+}
+
+.flex_img-title #salto{
+    display: block;
+}
+
+/*Propiedades parte de inicio secion y texto*/
+
+.flex_inicio{
+    display: flex;
+}
+
+.flex_inicio #titulo_responsive{
+    display: none;
+}
+
+.form{
+    width:40%;
+}
+
+.form input{
+    display: block;
+    margin: 30px 120px;
+    padding: 10px;
+    background-color: #C8ABEE;
+    outline: auto;
+    height: 35px;
+}
+
+.form input::placeholder{
+    color: rgb(49, 48, 48);
+}
+
+.flex_inicio #entrar button{
+    text-align: center;
+    text-decoration: none;
+    margin: 10px 125px;
+    width: 170px;
+    height: 40px;
+    font-size: 15px;
+    font-weight: 500;
+    background-color: #8196AE;
+    cursor: pointer;
+}
+
+.flex_inicio #contra_link{
+    margin: 10px 125px;
+}
+
+.flex_inicio #nosotros{
+    display: block;
+    font-size-adjust: none;
+    font-size: 20px;
+    text-align: end;
+    margin: 20px 50px;
+}
+
+.flex_inicio #ingreso{
+    display:block;
+    color: #C8ABEE;
+    font-family: 'Chewy', cursive;
+    font-size: 30px;
+    margin: 20px 30px;
+    text-decoration: none;
+    text-align: left;
+    text-shadow: 3px 2px 1px #3E546D;
+}
+
+.flex_inicio #ingreso:hover{
+    color:#8696C5;
+}
+
+
+/*Propiedades del los creadores  */
+.objetivo{
+    background-color: #ECECF7;
+    box-shadow: 20px 20px 1px 2px #969FAA;
+    border-radius: 10px;
+    text-align: center;
+    width: 55%;
+    position: relative;
+    top: -95px;
+}
+
+.objetivo p{
+    font-size: 20px;
+}
+
+.objetivo h3{
+    font-family: 'Chewy', cursive;
+    font-size: 35px;
+    color: #3E546D;
+    margin: 10px;
+    padding: 10px;
+}
+
+/* --------------------------- RESPONSIVE -------------------------*/
+
+@media only screen and (max-width:960px){
+    .flex_inicio{
+        flex-direction: column-reverse;
+    }
+
+    .flex_inicio #titulo_responsive{
+        display: block;
+        color: #b68dec;
+        font-family: 'Chewy', cursive;
+        font-size: 30px;
+        margin: 20px 70px;
+        text-shadow: 3px 2px 1px #27394d;
+    }
+
+    .form{
+        margin: 30px 20%;
+    }
+    
+    .form input{
+        margin: 30px;
+    }
+    
+    .flex_inicio #entrar button{
+        margin: 5px 30px;
+        width: 185px;
+        font-size: 15px;
+    }
+    
+    .flex_inicio #contra_link{
+        position: relative;
+        left: 25%;
+        margin: 4px ;
+        text-align: center;
+    }
+    
+    .flex_inicio #ingreso{
+        display:block;
+        color: #C8ABEE;
+        font-family: 'Chewy', cursive;
+        font-size: 28px;
+        margin: 20px 30px;
+        text-decoration: none;
+        text-align: left;
+        text-shadow: 3px 2px 1px #3E546D;
+    }
+
+    /* logo y nombre */
+
+    .flex_img-title{
+        justify-content: center;
+        margin: 20px;
+    }
+
+    .flex_img-title h1{
+        font-size: 32px;
+        margin: 20px;
+    }
+    
+    .flex_img-title img {
+        width: 100px;
+        margin: 10px 20px;
+        box-shadow: 5px 2px 1px 5px #969FAA;
+    }
+    
+    /* texto de creadores */
+    .objetivo{
+        box-shadow: 10px 10px 1px 2px #969FAA;
+        text-align: center;
+        width: 90%;
+        position: relative;
+        top: 5px;
+        margin: 10px 18px;
+    }
+    
+    .objetivo p{
+        font-size: 18px;
+    }
+    
+    .objetivo h3{
+        font-size: 30px;
+    }
+}
+
+
+
+

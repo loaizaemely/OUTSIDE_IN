@@ -1,0 +1,218 @@
+@import url(../CSS/generales.css);
+
+.container-femur p{
+    background-color: #d8c9f1;
+    box-shadow: 0px 3px 1px 5px #be46dc;
+    border-radius: 20px;
+    font-size: 22px;
+    padding: 15px 20px;
+    margin:auto;
+    width: 80%;
+}
+
+.container-femur h2{
+    margin-bottom: 30px;
+    margin-top: 70px;
+    color: #d261be;
+    text-shadow: 3px 3px 1px  #000000;
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Chewy', cursive;
+}
+
+.container-femur a{
+    color: #000000;
+}
+
+.container-femur a:hover{
+    color: #7b59b9;
+}
+
+/* -- div para el flex de la parte de arriba --*/ 
+
+.femur-flex{
+    display: flex;
+}
+
+/* IMAGEN */
+.femur-img {
+    margin: 70px 100px;
+    width: 30%;
+}
+
+.femur-img img{
+    box-shadow: 0px 3px 1px 5px #d261be;
+    border-radius: 20px;
+    width: 300px;
+}
+
+/* TEXTO */
+
+.femur-texto h2{
+    margin-top: 50px;
+    color: #000;
+    text-shadow: 3px 3px 1px  #d26190;
+}
+
+/* DIV DE LOS BOTONES */
+
+.botones button{
+    background-color: #a74399;
+    padding: 10px;
+    margin: 50px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+/* DIV DE COMO SE DIVIDE EL FEMUR */
+
+.division{
+    text-align: center;
+}
+
+.division h2{
+    margin-top: 130px;
+    color: #3f45e4;
+    text-shadow: 3px 3px 1px  #000;
+}
+
+.division p{
+    background-color: #bcb2f9;
+    box-shadow: 0px 3px 1px 5px #444ad0;
+}
+
+/* ----PARTES DEL FEMUR ESTILOS---- */
+
+.estilos-partes{
+    margin-top: 70px;
+}
+
+.estilos-partes h2{
+    color: #4379a7;
+    width: 30%;
+}
+
+.estilos-partes p{
+    background-color: #6c9acb;
+    box-shadow: 0px 3px 1px 5px #374d5d;
+    width: 60%;
+}
+
+/* FLEX Y TEXTOS.. */
+
+.proximal{
+    display: flex;
+    
+}
+
+.trocan-mayor{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.trocan-menor{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cresta{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* --- ESTILOS DEL CUERPO DEL FEMUR ---*/
+
+.estilos-cuerpo{
+    margin-top: 70px;
+}
+
+.estilos-cuerpo h2{
+    color: #dd60d9;
+}
+
+.estilos-cuerpo p{
+    background-color: #e8a6e4;
+    box-shadow: 0px 3px 1px 5px #b53d86;
+}
+
+/* TEXTO CUERPO */
+
+.cuerpo h2{
+    color: #000;
+    text-shadow: 3px 3px 1px  #b4558e;
+}
+
+/* CARAS */
+
+.caras{
+    display: flex;
+    margin: 30px 50px;
+}
+
+.caras h2{
+    margin: auto;
+}
+
+.caras p{
+    margin: 20px 100px;
+}
+
+/* ----- BORDES---- */
+
+.bordes{
+    display: flex;
+    margin: 30px 50px;
+}
+
+.bordes h2{
+    margin: auto;
+}
+
+.bordes p{
+    margin: 20px 100px;
+}
+
+/* ---- EXTREMO DISCAL ---- */
+
+.extremo{
+    margin: 50px;
+}
+
+/* PIE DE PÁGINA SIGNIFICADOS */
+
+.significados-femur h2{
+    margin-top: 170px;
+    margin-left: 40px;
+    color: #000000;
+    text-shadow: 3px 3px 1px  #a79d11;
+    font-size: 35px;
+    font-family: 'Chewy', cursive;
+}
+
+.significados-femur p{
+    background-color: #c3c7ca;
+    box-shadow: 0px 3px 1px 5px #9e7212;
+    border-radius: 20px;
+    font-size: 22px;
+    padding: 15px 30px;
+    margin: 30px 30px;
+    width: 70%;
+}
+
+.significados-femur button{
+    background-color: #afb136;
+    border-radius: 30px;
+    height: 40px;
+    padding: 10px;
+    margin: 10px 40px;
+    cursor: pointer;
+}
+
+.significados-femur a{
+    color: #000000;
+    text-decoration: none;  
+}
+
+.significados-femur a:hover{
+    background-color: #b3b44f ;
+}

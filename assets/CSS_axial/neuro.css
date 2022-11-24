@@ -1,0 +1,206 @@
+@import url(../CSS/generales.css);
+
+/* propiedades principales */
+
+.container_neurocraneo button{
+    background-color: #6c65ce;
+    border-radius: 30px;
+    margin: 20px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.container_neurocraneo p{
+    background-color: #c2cad1;
+    box-shadow: 0px 3px 1px 5px #657dbe;
+    border-radius: 20px;
+    font-size: 22px;
+    padding: 15px;
+    margin:auto;
+    width: 80%;
+}
+
+.container_neurocraneo h2{
+    margin: 50px;
+    text-shadow: 3px 3px 1px  #000000;
+    text-align: center;
+    color: #8696C5;
+    font-size: 35px;
+    font-family: 'Chewy', cursive;
+}
+
+.container_neurocraneo a{
+    color: #000000;
+}
+
+.container_neurocraneo a:hover{
+    color: #352bc7;
+   
+}
+
+/*------- DIV para el flex de la parte principal------- */
+
+.container-div{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+/*------- DIV para la imagen------- */
+
+.div-img {
+    margin: 20px 100px;
+    width: 30%;
+}
+
+.div-img img{
+    box-shadow: 0px 3px 1px 5px #5b6ea1;
+    border-radius: 20px;
+
+}
+/*------- DIV para el texto principal ------- */
+
+.div-text{
+    width: 80%;
+}
+
+.div-text h2{
+    margin-top: -20px;
+    margin-bottom: 30px;
+    text-shadow: 3px 3px 1px  #5b6ea1;
+    color: #000000;
+}
+
+/*------- DIV para el texto de como se divide------- */
+
+.container-span{
+    display: flex;
+    justify-content:space-evenly;
+}
+
+
+/*------- DIV para la boveda y base------- */
+
+.b-b{
+    display: flex;
+    margin: 50px;
+} 
+
+
+/*-----------------------------------------*/
+/*------------------VISCEROCRÁNEO----------*/
+/*-----------------------------------------*/
+
+.container_viserocraneo button{
+    background-color: #b267cf;;
+    border-radius: 30px;
+    margin: 20px;
+    padding: 10px;
+    cursor: pointer;
+
+}
+
+.container_viserocraneo p{
+    background-color: #c2cad1;
+    box-shadow: 0px 3px 1px 5px #8021b8;
+    border-radius: 20px;
+    font-size: 22px;
+    padding: 15px 20px;
+    margin:auto;
+    width: 70%;
+}
+
+.container_viserocraneo h2{
+    margin-bottom: 30px;
+    margin-top: 80px;
+    color: #b073c9;
+    text-shadow: 3px 3px 1px  #2a1857;
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Chewy', cursive;
+}
+
+.container_viserocraneo a{
+    color: #000000;
+}
+
+.container_viserocraneo a:hover{
+    color: #352bc7;
+   
+}
+
+/*CONTENEDOR DEL FLEX*/
+
+.vise-flex{
+    display: flex;
+}
+
+/*CONTENEDOR DE LA IMAGEN*/
+
+.vise-img {
+    margin: 40px 100px;
+    width: 30%;
+}
+
+.vise-img img{
+    box-shadow: 0px 3px 1px 5px #b267cf;
+    border-radius: 20px;
+    width: 245px;
+}
+
+/*CONTENEDOR DEl texto principal*/
+
+.vise-text h2{
+    margin-top: 0px;
+    margin-bottom: 30px;
+    text-shadow: 3px 3px 1px  #b267cf;
+    color: #000000;
+}
+
+
+/* div de la division del vis */
+
+.span-vis{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 15px;
+}
+
+/* pie de página de sigficados */
+
+.significados h2{
+    margin-top: 170px;
+    margin-left: 40px;
+    color: #000000;
+    text-shadow: 3px 3px 1px  #a79d11;
+    font-size: 35px;
+    font-family: 'Chewy', cursive;
+}
+
+.significados p{
+    background-color: #c3c7ca;
+    box-shadow: 0px 3px 1px 5px #9e7212;
+    border-radius: 20px;
+    font-size: 22px;
+    padding: 15px 30px;
+    margin: 30px 30px;
+    width: 70%;
+}
+
+.significados button{
+    background-color: #afb136;
+    border-radius: 30px;
+    height: 40px;
+    padding: 10px;
+    margin: 20px 40px;
+    cursor: pointer;
+}
+
+.significados a{
+    color: #000000;
+    text-decoration: none;
+}
+
+.significados a:hover{
+    background-color: #b3b44f ;
+}

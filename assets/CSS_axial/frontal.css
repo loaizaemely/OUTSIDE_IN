@@ -1,0 +1,80 @@
+@import url(../CSS/generales.css);
+
+/* propiedades principales */
+
+.container-frontal button{
+    background-color: #1d746f;
+    border-radius: 30px;
+    margin: 20px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.container-frontal p{
+    background-color: #d9f7f5;
+    box-shadow: 0px 3px 1px 5px #2a928c;
+    border-radius: 20px;
+    font-size: 22px;
+    padding: 15px;
+    margin:auto;
+    width: 80%;
+}
+
+.container-frontal h2{
+    margin-top: 90px;
+    margin-bottom: 10px;
+    text-shadow: 3px 3px 1px  #000000;
+    text-align: center;
+    color: #4cd0ce;
+    font-size: 35px;
+    font-family: 'Chewy', cursive;
+}
+
+.container-frontal a{
+    color: #000000;
+}
+
+.container-frontal a:hover{
+    color: #352bc7;
+   
+}
+
+/* -- DIV PARA EL FLEX DE LA PARTE PRINCIAL --*/
+
+.frontal-flex{
+    display: flex;
+}
+
+/* DIV DE LA IMAGEN */
+
+.frontal-img {
+    margin: 80px 100px;
+    width: 20%;
+}
+
+.frontal-img img{
+    box-shadow: 0px 3px 1px 5px #2a928c;
+    border-radius: 20px;
+    width: 240px;
+}
+
+/* DIV DEL TEXTO */
+
+.frontal-texto h2{
+    color: #000000;
+    text-shadow: 3px 3px 1px  #64c1bb;
+    margin: 20px;
+}
+
+/* -- DIV DE LA ESCAMA MY PORCION PARA EL FLEX -- */
+
+.escama_porcion{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* DIV PARA LA NASAL */
+
+.nasal{
+    margin: 50px;
+}
