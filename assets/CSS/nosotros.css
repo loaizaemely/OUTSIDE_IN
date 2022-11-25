@@ -46,6 +46,10 @@
     width: 40%;
 }
 
+.perfil2 #br{
+    display: none;
+}
+
 .perfil2{
     margin-left: 150px;
     width: 60%;
@@ -100,17 +104,24 @@
         flex-direction: column;
     }
     
+    .perfil2 #br{
+        display: block;
+    }
+    
 
     .perfil2{
         margin-left: 5px;
         margin-top: 20px;
         width: 60%;
     }
-    
+
+    .perfil2 p{
+        margin: -145px 155px;
+    }
     
     .main p{
         position: absolute;
-        margin: -145px 155px;
+        margin: -150px 155px;
         bottom: unset;
         font-size: 16px;
     }
