@@ -15,7 +15,7 @@
 }
 
 .logo_nombre p{
-    font-family: 'Chewy', cursive;
+    font-family: Chewy;
     text-align: center;
     font-size: 70px;
     color: #C8ABEE;
@@ -26,7 +26,7 @@
 /* TITULOS */
 
 .titulos {
-    font-family: 'Chewy', cursive;
+    font-family: Chewy;
     text-align: center;
     margin: 20px;
 }
@@ -38,7 +38,7 @@
 }
 
 .ingreso p{
-    font-family: 'Chewy', cursive;
+    font-family: Chewy;
     font-size: 20px;
     margin: 10px 40px;
 }

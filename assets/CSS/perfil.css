@@ -1,7 +1,7 @@
 @import url(./generales.css);
 
 .container_perfil h2{
-    font-family: 'Chewy', cursive;
+    font-family: Chewy;
     font-size: 40px;
     text-align: center;
     margin: 30px;
@@ -11,12 +11,14 @@
     background-color: #A7ACE9;
     border-radius: 10px;
     padding: 15px;
+    font-family: Roboto;
 }
 
 #perfil_h3{
     border-radius: 10px;
     padding: 15px;
     margin: -2px 20px; 
+    font-family: Roboto;
 }
 
 /* NOMBRE */
@@ -25,6 +27,7 @@
     display: flex;
     justify-content: center;
     margin: 80px;
+    font-family: Roboto;
 }
 
 .nombre_texto h3{
@@ -37,6 +40,7 @@
     display: flex;
     justify-content: center;
     margin: 80px;
+    font-family: Roboto;
 }
 
 .correo_texto h3{

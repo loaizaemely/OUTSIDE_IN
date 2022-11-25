@@ -20,7 +20,8 @@ body{
     background-color: #ECECF7;
     box-shadow: 0px 3px 1px 5px #567095;
     border-radius: 20px;
-    font-size: 22px;
+    font-size: 20px;
+    font-family: Roboto;
     padding: 15px;
     margin: 40px;
     width: 90%; 
@@ -68,7 +69,7 @@ body{
 }
 
 .derecha h3 {
-    font-family: 'Chewy', cursive;
+    font-family: Chewy;
     font-size: 20px;
     font-weight: 6px;
     padding: 10px;
@@ -76,7 +77,7 @@ body{
 
 
 #h2{
-    font-family: 'Chewy', cursive;
+    font-family: Chewy;
     text-shadow: 4px 5px 1px #8196AE;
     text-align: center;
     color: #31445a;

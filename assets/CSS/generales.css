@@ -1,4 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Chewy&display=swap');
+
+@font-face {
+    font-family: Chewy;
+    src: url(../font/Chewy-Regular.ttf);
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(../font/RobotoCondensed-Regular.ttf);
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -14,6 +24,8 @@
 body{
     background-color: rgba(207, 207, 230, 0.733);
 }
+
+
 
 /* NAVEGACION */
 

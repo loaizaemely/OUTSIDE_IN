@@ -35,7 +35,7 @@
     text-shadow: 3px 3px 1px  #5b6ea1;
     text-align: center;
     font-size: 35px;
-    font-family: 'Chewy', cursive;
+    font-family: Chewy;
 }
 
 
@@ -44,6 +44,7 @@
     box-shadow: 0px 3px 1px 5px #5b6ea1;
     border-radius: 20px;
     font-size: 20px;
+    font-family: Roboto;
     padding: 20px;
 }
 
@@ -60,7 +61,7 @@
     text-align: center;
     color: #8696C5;
     font-size: 35px;
-    font-family: 'Chewy', cursive;
+    font-family: Chewy;
 }
 
 .derecha-funciones p{
@@ -69,6 +70,7 @@
     border-radius: 20px;
     font-size: 20px;
     padding: 15px;
+    font-family: Roboto;
 }
 
 
@@ -90,14 +92,14 @@
 }
 
 .container-cuadros p{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Roboto;
     padding: 10px;
 }
 
 .container-cuadros a{
     display: block;
     color: #1f1e24;
-    font-family:'Times New Roman', Times, serif;
+    font-family: Roboto;
     font-size: 18px;
     background-color: #aa8dcf;
     padding: 20px;

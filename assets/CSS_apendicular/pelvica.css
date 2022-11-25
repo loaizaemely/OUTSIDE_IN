@@ -1,16 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Chewy&display=swap');
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    scroll-behavior: smooth;
-}
-
-*::selection{
-    background-color: #574fcc;
-    color: #fffbfb;
-}
+@import url(../CSS/generales.css);
 
 /* Propiedades principales */
 
@@ -21,6 +9,7 @@ body{
 .container-pelvica p{
     border-radius: 20px;
     font-size: 22px;
+    font-family: Roboto;
     padding: 15px 20px;
     margin:auto;
     width: 80%;
@@ -31,7 +20,7 @@ body{
     text-align: center;
     text-shadow: 3px 3px 1px  #000000;
     font-size: 35px;
-    font-family: 'Chewy', cursive;
+    font-family: Chewy;
 }
 
 .container-pelvica a{
@@ -42,43 +31,6 @@ body{
     color: #535ba3;
 }
 
-/* NAVEGACIÓN */
-
-.nav{
-    display: flex;
-    justify-content: space-between;
-    background-color: #9aaac2d0;
-    border: 3px solid #3E546D;
-    border-radius: 10px;
-    margin: 10px;
-}
-
-.nav img{
-    margin: 10px 20px;
-    width: 60px;
-    height: 60px;
-    border-radius: 40px;
-}
-
-.enlaces{
-   margin-left: 200px;
-   margin-right: 20px;
-   padding: 30px;
-}
-
-.enlaces .ingles{
-    margin-right: 50px;
-}
-
-.enlaces a{
-    text-decoration: none;
-    font-family:cursive;
-    font-size: 18px;
-}
-
-.enlaces a:hover{
-    color: rgb(109, 107, 226);
-}
 
 /*CONTENEDOR DE LA IMAGEN*/
 
@@ -190,7 +142,7 @@ body{
     color: #000000;
     text-shadow: 3px 3px 1px  #a79d11;
     font-size: 35px;
-    font-family: 'Chewy', cursive;
+    font-family: Chewy;
 }
 
 .significados-pelvica p{

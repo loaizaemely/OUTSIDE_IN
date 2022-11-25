@@ -2,7 +2,7 @@
 
 .container_suge h3{
     text-align: center;
-    font-family: 'Chewy', cursive;
+    font-family: Chewy;
     font-size: 30px;
     margin: 30px;
 }
@@ -14,7 +14,7 @@
     padding: 10px 20px;
     margin: 20px;
     width: 30%;
-    font-family: 'Chewy', cursive;
+    font-family: Chewy;
 }
 
 .container_suge #suge_figura{
@@ -24,7 +24,7 @@
 
 .container_suge #comentario_suge{
     margin: 20px;
-    font-family: 'Chewy', cursive;
+    font-family: Chewy;
 }
 
 .container_suge #textarea_suge{
@@ -44,6 +44,6 @@
 }
 
 .container_suge #mensaje_suge{
-    font-family: 'Chewy', cursive;
+    font-family: Chewy;
     margin: 20px;
 }

@@ -8,6 +8,7 @@
 .resgis {
     margin: 10%;
     flex-direction: column;
+    font-family: Roboto;
     background-color: #c8d4e7a9;
     border-radius: 10px;
     border: 7px solid #18487F;
@@ -16,7 +17,7 @@
 }
 
 .resgis h3{
-    font-family: 'Chewy', cursive;
+    font-family: Chewy;
     font-size: 30px;
     padding: 15px;
     color: #090e70;
@@ -29,6 +30,7 @@
 
 .form_regis label{
     line-height: 3;
+    font-family: Roboto;
 }
 
 .form_regis input{
@@ -62,6 +64,7 @@
     background-color: #345a85;
     border-radius: 8px;
     color: #fff;
+    font-family: Roboto;
     cursor: pointer;
 }
 
@@ -71,6 +74,7 @@
 
 .resgis #p2{
     margin: 10px;
+    font-family: Roboto;
 }
 
 /*----------------------------- RESPONSIVE --------------------------*/
