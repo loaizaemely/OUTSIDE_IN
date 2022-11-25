@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SUGERENCIAS</title>
+
+    <link rel="stylesheet" href="../assets/CSS/suge.css">
+    <link rel="icon" href="../assets/img/logito.png">
+    <script src="../assets/JS/menu.js"></script>
+</head>
+<body>
+
+    <header>
+        <nav class="nav">
+            <img src="../assets/img/perfil.PNG" alt="PERFIL" onclick="toggleMenu()">
+            <div class="enlaces">
+
+                <a href="../in/suge_in.html" class="ingles" >INGLÉS</a>
+
+                <a href="../inicio/esqueletos.html">INICIO</a>
+            </div>
+
+            <div class="ventana" id="menu">
+                <img src="../assets/img/logo2.PNG" alt="PERFIL">
+                <p>USUARIO</p>
+                <hr>
+                <p id="opciones">
+                    <a href="../opciones_menu/perfil.html">PERFIL<br><br></a> 
+                    <a href="../index.html">PÁGINA PRINCIPAL<br><br></a> 
+                    <a href="../opciones_menu/suge.html">SUGERENCIAS<br><br></a> 
+                    <a href="../opciones_menu/nosotros_2.html">SOBRE NOSOTROS<br><br></a> 
+                    <a href="../inicio/esqueletos.html">VOLVER A ESQUELETOS<br><br><br></a> 
+                    CALIFICANOS<br><br>
+                </p>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container_suge">
+        <h3>S U G E R E N C I A S</h3>
+        <p id="suge_pregunta">¿Cómo se podría mejorar?</p>
+        <p id="suge_comentario">
+            <span id="suge_figura">&#9679;</span> Ten en cuenta que este formulario es únicamente para enviar tus comentarios, por
+            lo que no recibirás respuesta. No incluyas información personal tuya ni de
+            ninguna otra persona. 
+        </p>
+
+        <p id="comentario_suge">COMENTARIO</p>
+        <textarea id="textarea_suge" cols="90" rows="10" placeholder="Opcional"></textarea>
+
+        <p id="mensaje_suge">¡La opinión de los usuarios son las más valiosas!</p>
+
+        <a href="#" id="btn_suge"><button>ENVIAR</button></a>
+    </main>
+    
+</body>
+</html>

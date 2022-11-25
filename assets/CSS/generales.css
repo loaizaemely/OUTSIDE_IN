@@ -78,6 +78,7 @@ body{
 
 .ventana #opciones {
     margin: 70px 5px;
+    font-size: 16px;
 }
 
 .ventana.active {

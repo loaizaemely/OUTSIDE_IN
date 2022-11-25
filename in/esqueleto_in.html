@@ -4,67 +4,117 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Esqueletos</title>
+    <title>Skeletons</title>
     <link rel="stylesheet" href="../assets/CSS/esqueleto.css">
     <link rel="icon" href="../assets/img/logito.png">
     <script src="../assets/JS/menu.js"></script>
 </head>
 <body>
 
-   <header>
-    <nav class="nav">
-        <img src="../assets/img/perfil.PNG " alt="PERFIL" onclick="toggleMenu()">
-        <div class="enlaces">
-            <a href="../inicio/esqueletos.html" class="ingles" >SPANISH</a>
-            <a href="#">HOME</a>
-        </div>
+    <header>
+        <nav class="nav">
+            <img src="../assets/img/perfil.PNG" alt="PERFIL" onclick="toggleMenu()">
+            <div class="enlaces">
 
-        <div class="ventana" id="menu">
-            <img src="../assets/img/logo2.PNG" alt="PERFIL">
-            <p>USERNAME</p>
-            <hr>
-            <p id="opciones">
-                 PROFILE<br><br>
-                 <a href="../index.html">MAIN PAGE<br><br></a>
-                 REFERENCES<br><br>
-                 SUGGESTIONS<br><br>
-                 ABOUT US<br><br><br>
-                 RATE US<br><br>
-            </p>
-           
-        </div>
-    </nav>
-   </header>
+                <a href="../inicio/esqueletos.html" class="ingles" >SPANISH</a>
+
+                <a href="#">HOME</a>
+            </div>
+
+            <div class="ventana" id="menu">
+                <img src="../assets/img/logo2.PNG" alt="PERFIL">
+                <p>PROFILE</p>
+                <hr>
+                <p id="opciones">
+                    <a href="../in/perfil_in.html">PROFILE<br><br></a> 
+                    <a href="../index.html">HOMEPAGE<br><br></a> 
+                    <a href="../in/suge_in.html">SUGGESTIONS<br><br></a> 
+                    <a href="../opciones_menu/nosotros_2.html"> ABOUT US<br><br></a>
+                    <a href="../in/esqueleto_in.html">BACK TO SKELETONS<br><br><br></a> 
+                    RATE US<br><br>
+                </p>
+            </div>
+        </nav>
+    </header>
        
 
     <main class="main">
-        <div class="izquierda">
-            <img src="../assets/img/logo2.PNG" alt="LOGO">
-
-            <div class="info">
-                <p> The human skeleton is divided into 2 main groups <br><br>Which one do you want to learn about? <br> </p>
-
-            </div>
-        </div>
-
-        <div class="derecha">
-            <h2>THE HUMAN SKELETON</h2>
-            <div class="imagenes">
-                <div class="apen">
-                    <h3>APPENDICLE SKELETON</h3>
-                    <a href="./apendicular_in.html" class="APENDICULAR">
-                        <img src="../assets/img/apendicular.png" alt="APPENDICLE">
-                    </a>
+        <section class="info_general">
+            <div class="general_esqueleto">
+                <div class="img_esqueleto-completo">
+                    <img src="../assets/img/esqueleto_completo.png" alt="ESQUELETO">
                 </div>
+
+                <div class="esqueleto_texto">
+                    <h2 id="h2">THE HUMAN SKELETON</h2>
+                    <p>
+                        The human skeleton is made up of a total of 206 bones, each and every one of them with a different morphology.
+                        In an adult human being, the skeletal system makes up 15% of the body weight. <br>
+                        Bones are 98% composed of extracellular matter, mainly based on hydroxyapatite and collagen, only 2% of its tissues are cells, that is, osteoblasts, osteoclasts and osteocytes that are in charge of renewing the bone matrix. <br>
+                        Due to its percentage of eminently mineral matter, bone structures store 99% of the body's calcium.
+                    </p>
+                </div>
+            </div>
+
+            <div class="funciones_esqueleto">
+                <h3 id="h2">FUNCTIONS</h3>
+                <p id="p_funciones">
+                    <strong>°Support:</strong> the skeleton functions as a rigid structure, which gives shape to the body. <br>
+                    <strong>°Movement:</strong> Joints, which are the joints between two bones, make movement possible. In addition, the muscles are attached to the bones. <br>
+                    <strong>°Protection:</strong> many of our internal organs are protected by the skeleton. <br>
+                    <strong>°Metabolic storage:</strong> bones store calcium and phosphate salts, and regulate their distribution. <br>
+                    <strong>°Blood cell production: </strong> inside some large bones is the red bone marrow, which is responsible for producing blood cells such as leukocytes and erythrocytes. <br>
+                </p>
+            </div>
+
+            <div class="clasificacion_esqueleto">
+                <h3 id="h2">CLASSIFICATION OF BONES</h3>
+                <p id="p_clasi">
+                    <strong>Long bones:</strong> what predominates is length over other dimensions. They are usually found in the extremities, such as the femur, radius, tibia, and fibula. <br>
+                    <strong>Short bones:</strong> the dimensions are more or less equivalent, its shape being approximately cubical. The small bones that form the carpus in the wrist are of this type. <br>
+                    <strong>Flat bones: </strong> are thin bones, like those that form the vault of the skull. <br>
+                    <strong>Irregular bones:</strong> These are irregularly shaped bones, like vertebrae. <br>
+                    <strong>Sesamoid bones:</strong> They are named because their shape resembles a sesame seed. They are small and accessory bones that are usually found near the tendons, in the hands and feet.
+                </p>
+            </div>
+
+            <div class="partes_esqueleto_completo">
+                <h3 id="h2">PARTS OF THE HUMAN SKELETON</h3>
+                <p id="p_partes">
+                    The set of bones of the skeleton is divided into two basic parts: the axial skeleton or central structure formed by the skull, the vertebral column, the ribs and the sternum and the appendicular skeleton, in which the bone structure of the waist and pelvis stands out together with the bones of the upper and lower extremities.
+                </p>
+            </div>
+        </section>
+
+        <div class="container_lados">
+            <div class="izquierda">
+                <img src="../assets/img/logo2.PNG" alt="LOGO">
+
+                <div class="info">
+                    <p> As seen previously... <br> <br> Which of the two parts of the human skeleton do you want to emphasize?<br> </p>
+                </div>
+            </div>
     
-                <div class="axi">
-                    <h3>AXIAL SKELETON</h3>
-                    <a href="./axial_in.html" class="AXIAL">
-                        <img src="../assets/img/axial.png" alt="AXIAL" >
-                    </a>
+            <div class="derecha">
+                <h2 id="h2">THE HUMAN SKELETON</h2>
+                <div class="imagenes">
+                    <div class="apen">
+                        <h3>APPENDICLE SKELETON</h3>
+                        <a href="./apendicular_in.html" class="APENDICULAR">
+                            <img src="../assets/img/apendicular.png" alt="APPENDICLE">
+                        </a>
+                    </div>
+        
+                    <div class="axi">
+                        <h3>AXIAL SKELETON</h3>
+                        <a href="./axial_in.html" class="AXIAL">
+                            <img src="../assets/img/axial.png" alt="AXIAL" >
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
+       
     </main><!-- cierra contenedor proncipal -->
   
 </body>

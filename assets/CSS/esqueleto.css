@@ -6,9 +6,36 @@ body{
 
 /*Propiedades principales*/
 
-.main{
+.container_lados{
     display: flex;
 }
+
+/* INFORMACION GENERAL SOBRE LOS ESQUELETOS */
+
+.general_esqueleto{
+    display: flex;
+}
+
+.info_general p{
+    background-color: #ECECF7;
+    box-shadow: 0px 3px 1px 5px #567095;
+    border-radius: 20px;
+    font-size: 22px;
+    padding: 15px;
+    margin: 40px;
+    width: 90%; 
+}
+
+#p_partes{
+    margin-bottom: 90px;
+}
+
+.img_esqueleto-completo img{
+    width: 200px;
+    margin: 10px 60px;
+}
+
+
 
 /*-------- PARTE IZQUIERDA --------*/
 
@@ -48,9 +75,10 @@ body{
 }
 
 
-.derecha h2{
+#h2{
     font-family: 'Chewy', cursive;
     text-shadow: 4px 5px 1px #8196AE;
+    text-align: center;
     color: #31445a;
     font-size: 35px;
     margin: 20px;

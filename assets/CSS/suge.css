@@ -1,0 +1,49 @@
+@import url(./generales.css);
+
+.container_suge h3{
+    text-align: center;
+    font-family: 'Chewy', cursive;
+    font-size: 30px;
+    margin: 30px;
+}
+
+.container_suge #suge_pregunta{
+    background-color: #D4D3F2;
+    border-radius: 18px;
+    border: 2px solid #9493bd;
+    padding: 10px 20px;
+    margin: 20px;
+    width: 30%;
+    font-family: 'Chewy', cursive;
+}
+
+.container_suge #suge_figura{
+    color: #A087C2;
+    margin: 20px;
+}
+
+.container_suge #comentario_suge{
+    margin: 20px;
+    font-family: 'Chewy', cursive;
+}
+
+.container_suge #textarea_suge{
+    display: block;
+    padding: 10px;
+    margin: 20px;
+    background-color:#D4D3F2;
+    border-radius: 20px;
+}
+
+.container_suge #btn_suge button{
+    background-color: #827EC5;
+    border-radius: 20px;
+    padding: 10px 30px;
+    margin: 30px;
+    cursor: pointer;
+}
+
+.container_suge #mensaje_suge{
+    font-family: 'Chewy', cursive;
+    margin: 20px;
+}
