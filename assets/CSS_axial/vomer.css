@@ -1,0 +1,78 @@
+@import url(../CSS/generales.css);
+
+.vomer_flex{
+    display: flex;
+}
+
+/* BOTONES DE NAVEGACION */
+.botones_vomer button{
+    background-color: #9b7931;
+    padding: 10px 20px;
+    border-radius: 15px;
+    margin: 20px 30px;
+    cursor: pointer;
+}
+
+/* ESTILOS GENERALES */
+.container_vomer p{
+    background-color: #ffedcc;
+    box-shadow: 0px 3px 1px 5px #a87128;
+    border-radius: 20px;
+    font-size: 22px;
+    font-family: Roboto;
+    padding: 22px;
+    margin:auto;
+    margin-bottom: 70px;
+    width: 90%;
+}
+
+.container_vomer h2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-shadow: 3px 3px 1px  #000000;
+    text-align: center;
+    color:#d47254;
+    font-size: 35px;
+    font-family: Chewy;
+}
+
+/* SECCION DE LA IMAGEN Y TEXTO CON FLEX */
+
+.vomer_img img {
+    box-shadow: 0px 3px 1px 5px #c78734;
+    border-radius: 20px;
+    width: 250px;
+    margin: 50px 80px;
+}
+
+/* ANATOMIA */
+
+.borde_vomer_flex{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* FLEX DE PARTES, ANATOMIA */
+.vomer_bordes_1{
+    display: flex;
+}
+
+.SUPERIOR_vomer{
+    width:50%;
+}
+
+.INFERIOR_vomer{
+    width:50%;
+}
+
+.vomer_bordes_2{
+    display: flex;
+}
+
+.ANTERIOR_vomer{
+    width:50%;
+}
+
+.POSTERIOR_vomer{
+    width:50%;
+}

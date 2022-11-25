@@ -13,7 +13,7 @@
     border-radius: 10px;
     border: 7px solid #18487F;
     text-align: center;
-    width: 30%;
+    width: 32%;
 }
 
 .resgis h3{
@@ -25,7 +25,7 @@
 
 .form_regis{
     position: relative;
-    left: 6%;  
+    left: 10%;  
 }
 
 .form_regis label{
@@ -91,7 +91,7 @@
     }
 
     .form_regis{
-        left: 10%;  
+        left: 12%;  
     }
     
     .form_regis input{

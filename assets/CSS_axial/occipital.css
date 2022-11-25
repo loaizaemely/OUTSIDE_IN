@@ -1,0 +1,64 @@
+@import url(../CSS/generales.css);
+
+.occi_flex{
+    display: flex;
+}
+
+/* BOTONES DE NAVEGACION */
+.botones_occi button{
+    background-color: #5a3ec7;
+    padding: 10px 20px;
+    border-radius: 15px;
+    margin: 20px 30px;
+    cursor: pointer;
+}
+
+/* ESTILOS GENERALES */
+.container_occi p{
+    background-color: #E4DDFF;
+    box-shadow: 0px 3px 1px 5px #422AA4;
+    border-radius: 20px;
+    font-size: 22px;
+    font-family: Roboto;
+    padding: 22px;
+    margin:auto;
+    margin-bottom: 70px;
+    width: 90%;
+}
+
+.container_occi h2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-shadow: 3px 3px 1px  #000000;
+    text-align: center;
+    color:#6D54D4;
+    font-size: 35px;
+    font-family: Chewy;
+}
+
+/* SECCION DE LA IMAGEN Y TEXTO CON FLEX */
+
+.occi_img img {
+    box-shadow: 0px 3px 1px 5px #422AA4;
+    border-radius: 20px;
+    width: 250px;
+    margin: 50px 80px;
+}
+
+/* ANATOMIA */
+
+.anatomia_occi_flex{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* FLEX DE PARTES, ANATOMIA */
+.occi_anatomia-partes1{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.occi_anatomia-partes2{
+    display: flex;
+    justify-content: space-evenly;
+}

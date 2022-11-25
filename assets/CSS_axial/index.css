@@ -8,3 +8,7 @@
 @import url(./frontal.css);
 @import url(./temporal.css);
 @import url(./pariental.css);
+@import url(./occipital.css);
+
+/* partes viserocraneo */
+@import url(./vomer.css);
