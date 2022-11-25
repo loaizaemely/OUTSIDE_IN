@@ -28,6 +28,7 @@
 
 /*Propiedades parte de inicio secion y texto*/
 
+
 .flex_inicio{
     display: flex;
 }
@@ -56,17 +57,22 @@
 .flex_inicio #entrar button{
     text-align: center;
     text-decoration: none;
-    margin: 10px 125px;
-    width: 170px;
+    margin: 10px 120px;
+    width: 188px;
     height: 40px;
     font-size: 15px;
     font-weight: 500;
     background-color: #8196AE;
+    border: 2px solid #3E546D;
     cursor: pointer;
 }
 
+.flex_inicio #entrar button:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
 .flex_inicio #contra_link{
-    margin: 10px 125px;
+    margin: 10px 62%;
 }
 
 .flex_inicio #nosotros{
@@ -99,9 +105,10 @@
     box-shadow: 20px 20px 1px 2px #969FAA;
     border-radius: 10px;
     text-align: center;
-    width: 55%;
+    width: 60%;
     position: relative;
     top: -95px;
+    left: -40px;
 }
 
 .objetivo p{
@@ -123,6 +130,12 @@
         flex-direction: column-reverse;
     }
 
+    .article_flex{
+        width: 60%;
+        display: flex;
+        justify-content: center;
+    }
+
     .flex_inicio #titulo_responsive{
         display: block;
         color: #b68dec;
@@ -133,7 +146,7 @@
     }
 
     .form{
-        margin: 30px 20%;
+        margin: 30px 0%;
     }
     
     .form input{
@@ -147,11 +160,9 @@
     }
     
     .flex_inicio #contra_link{
-        position: relative;
-        left: 25%;
-        margin: 4px ;
-        text-align: center;
+        margin: 10px 50%;
     }
+    
     
     .flex_inicio #ingreso{
         display:block;
@@ -189,6 +200,7 @@
         width: 90%;
         position: relative;
         top: 5px;
+        left: 1px;
         margin: 10px 18px;
     }
     

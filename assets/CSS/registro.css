@@ -24,7 +24,7 @@
 
 .form_regis{
     position: relative;
-    left: 10%;  
+    left: 6%;  
 }
 
 .form_regis label{
@@ -75,25 +75,36 @@
 
 /*----------------------------- RESPONSIVE --------------------------*/
 
-@media only screen and (max-width:920px){
+@media only screen and (max-width:980px){
 
     .mainr{
-        margin-left: -12px;
+        margin-left: 2px;
     }
 
     .resgis {
         margin: 50% ;
         width: 90%;
     }
+
+    .form_regis{
+        left: 10%;  
+    }
     
     .form_regis input{
-        margin: 10px 40px;
+        margin: 10px 80px;
         padding: 5px;
-
+    }
+    
+    #contraseña{
+        margin-left: 13px;
+    }
+    
+    #nombre{
+        margin-left: 32px;
     }
 
-    .form_regis input:hover{
-        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    #correo_regis{
+        margin-left: 40px;
     }
     
     
@@ -117,4 +128,16 @@
     }
 }
 
-
+@media only screen and (max-width:490px){
+    .resgis {
+        margin: 50% ;
+        width: 100%;
+    }
+    
+    .form_regis input{
+        margin: 10px 80px;
+        padding: 5px;
+        width: 140px;
+    }
+  
+}
