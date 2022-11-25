@@ -26,7 +26,6 @@ body{
 }
 
 
-
 /* NAVEGACION */
 
 .nav{
@@ -36,6 +35,7 @@ body{
     border: 3px solid #3E546D;
     border-radius: 10px;
     margin: 10px;
+    width: 98%;
 }
 
 .nav img{
@@ -51,7 +51,7 @@ body{
    margin-left: 200px;
    margin-right: 20px;
    padding: 30px;
-   transition: all 0.7s ease-out 0s;
+   
 }
 
 
@@ -61,8 +61,8 @@ body{
 
 .enlaces a{
     text-decoration: none;
-    font-family:cursive;
-    font-size: 18px;
+    font-family: Chewy;
+    font-size: 23px;
 }
 
 .enlaces a:hover{
@@ -97,4 +97,28 @@ body{
     visibility: visible;
     opacity: 1;
     transition: all 0.4s ease-in-out 0s;
+}
+
+@media only screen and (min-width:270px) and (max-width:715px){
+
+    .nav{
+        margin: 10px 23px;
+        width: 135%;
+    }
+
+    .enlaces{
+        margin-left: 80px;
+        margin-right: 20px;
+        padding: 25px;
+        
+    }
+
+    .enlaces .ingles{
+        margin-right: 20px;
+    }
+
+    .enlaces a{
+        font-size: 20px;
+    }
+
 }
