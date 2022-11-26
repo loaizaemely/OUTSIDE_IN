@@ -220,15 +220,15 @@
     }
 
     .container_neurocraneo p{
-        font-size: 22px;
+        font-size: 18px;
         padding: 15px;
         margin:auto;
         width: 95%;
     }
 
     .container_neurocraneo h2{
-        margin: 50px;
-        font-size: 35px;
+        margin: 30px;
+        font-size: 30px;
     }
 
     /*------- DIV para el flex de la parte principal------- */
@@ -291,11 +291,13 @@
     .container_viserocraneo p{
         padding: 15px 20px;
         width: 95%;
+        font-size: 18px;
     }
 
     .container_viserocraneo h2{
         margin-bottom: 30px;
         margin-top: 80px;
+        font-size: 30px;
     }
 
     /*CONTENEDOR DEL FLEX*/
@@ -327,7 +329,7 @@
         margin-left: 40px;
         color: #000000;
         text-shadow: 3px 3px 1px  #a79d11;
-        font-size: 35px;
+        font-size: 30px;
         font-family: Chewy;
     }
 
@@ -335,6 +337,7 @@
         padding: 15px 30px;
         margin: 30px 10px;
         width: 95%;
+        font-size: 18px;
     }
 
 }
@@ -348,7 +351,7 @@
     }
 
     .container_neurocraneo p{
-        font-size: 22px;
+        font-size: 18px;
         padding: 15px;
         margin:auto;
         width: 95%;
@@ -356,7 +359,7 @@
 
     .container_neurocraneo h2{
         margin: 50px;
-        font-size: 35px;
+        font-size: 30px;
     }
 
     /*------- DIV para el flex de la parte principal------- */
@@ -455,7 +458,7 @@
         margin-left: 40px;
         color: #000000;
         text-shadow: 3px 3px 1px  #a79d11;
-        font-size: 35px;
+        font-size: 30px;
         font-family: Chewy;
     }
 
@@ -463,5 +466,6 @@
         padding: 15px 30px;
         margin: 30px 10px;
         width: 95%;
+        font-size: 18px;
     }
 }

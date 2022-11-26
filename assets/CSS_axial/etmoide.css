@@ -76,3 +76,75 @@
     margin: 30px;
 }
 
+@media only screen and (max-width:960px){
+    .container-etmoide button{
+        margin: 20px 1px;
+    }
+    
+    .container-etmoide p{
+        font-size: 18px;
+        font-family: Roboto;
+        padding: 15px;
+        margin:auto;
+        width: 95%;
+    }
+
+    .etmoide-texto p{
+       
+    }
+    
+    .container-etmoide h2{
+        margin-top: 90px;
+        margin-bottom: 10px;
+        font-size: 30px;
+        font-family: Chewy;
+    }
+    
+    
+    /* DIV PARA EL FLEX DE LA PARTE DE ARRIBA */
+    
+    .etmoide-flex{
+        flex-direction: column;
+    }
+    
+    /* DIV PARA LA IMAGEN */
+    
+    .etmoide-img {
+        margin: 70px 80px;
+        
+    }
+    
+    .etmoide-img img{
+        box-shadow: 0px 3px 1px 5px #2a7aa3;
+        border-radius: 20px;
+        width: 310px;
+    }
+    
+    /* DIV PARA EL TEXTO PRINCIPAL */
+    
+    .etmoide-texto h2{
+        color: #000000;
+        text-shadow: 3px 3px 1px  #6ea4c6;
+        margin-top: 10px;
+    }
+    
+    /* DIV DE LAS LAMINAS */
+    
+    .laminas{
+        flex-direction: column;
+    }
+    
+    .perpendicular{
+        width: 95%;
+    }
+    
+    .cribosa{
+        width: 95%;
+    }
+    
+    /* DIV DE LOS LABERINTOS */
+    .laberintos{
+        margin: 30px;
+    }
+}
+
