@@ -87,6 +87,15 @@ body{
     margin: 20px;
 }
 
+#derecha_h2{
+    font-family: Chewy;
+    text-shadow: 4px 5px 1px #8196AE;
+    text-align: center;
+    color: #31445a;
+    font-size: 35px;
+    margin: 20px;
+}
+
 .imagenes{
     display: flex;
     margin: 40px 90px;
@@ -123,7 +132,8 @@ body{
 
     #h2{
         font-size: 35px;
-        margin: 20px -20px;
+        position: relative;
+        left: 18%;
         text-align: center;
     }
     
@@ -137,9 +147,9 @@ body{
     .info_general p{
         font-size: 20px;
         padding: 15px;
-        margin: 10px 10px;
+        margin: 10px 20px;
         margin-bottom: 70px;
-        width: 86%; 
+        width: 122%; 
     }
     
     #p_partes{
@@ -148,6 +158,92 @@ body{
     
     .img_esqueleto-completo img{
         width: 200px;
-        margin: 10px 20%;
+        margin: 10px 40%;
+    }
+
+    
+    /*-------- PARTE IZQUIERDA --------*/
+
+    .container_lados{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .izquierda{
+        display: flex;
+        width: 160%;
+    }
+
+    .izquierda img {
+        width: 30%;
+        margin: 10px 10px;
+        box-shadow: 15px 5px 1px 5px #969FAA;
+    }
+
+
+    .izquierda .info{
+        font-size: 20px;
+        margin: 30px 40px;
+        padding: 20px;
+        text-align: center;
+        height: 170px;
+        width: 40%;
+    }
+
+    /*-------- PARTE DERECHA --------*/
+
+    .derecha{
+        width: 70%;
+        text-align: center;
+    }
+
+    .derecha h3 {
+        font-size: 20px;
+        font-weight: 6px;
+        padding: 10px;
+    }
+
+    #derecha_h2{
+        font-size: 40px;
+        margin: 90px 45%;
+        width: 100%;
+    }
+
+
+    #h2{
+        font-family: Chewy;
+        text-shadow: 4px 5px 1px #8196AE;
+        text-align: center;
+        color: #31445a;
+        font-size: 35px;
+        margin: 20px;
+    }
+
+    .imagenes{
+        display: flex;
+        flex-direction: column;
+        margin: 40px 80px;
+        background-color: rgba(213, 213, 228, 0.733);
+        width: 190%;
+    }
+
+    .apen{
+        width: 70%;
+    }
+
+    .axi{
+        width: 70%;
+
+    }
+
+    .apen img{
+        width: 200px;
+
+    }
+
+    .axi img{
+        width: 200px;
+        margin: 30px;
+        
     }
 }
