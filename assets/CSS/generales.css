@@ -99,16 +99,16 @@ body{
     transition: all 0.4s ease-in-out 0s;
 }
 
-@media only screen and (min-width:270px) and (max-width:715px){
+@media only screen and (min-width:270px) and (max-width:830px){
 
     .nav{
-        margin: 10px 23px;
-        width: 135%;
+        margin: 10px 20px;
+        width: 125%;
     }
 
     .enlaces{
         margin-left: 80px;
-        margin-right: 20px;
+        margin-right: 10px;
         padding: 25px;
         
     }
