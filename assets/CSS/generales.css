@@ -102,8 +102,8 @@ body{
 @media only screen and (min-width:270px) and (max-width:830px){
 
     .nav{
-        margin: 10px 20px;
-        width: 125%;
+        margin: 10px 5px;
+        width: 90%;
     }
 
     .enlaces{
@@ -118,7 +118,7 @@ body{
     }
 
     .enlaces a{
-        font-size: 20px;
+        font-size: 15px;
     }
 
 }

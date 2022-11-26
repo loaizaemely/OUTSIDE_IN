@@ -123,7 +123,7 @@ body{
 
     #h2{
         font-size: 35px;
-        margin: 20px 50%;
+        margin: 20px -20px;
         text-align: center;
     }
     
@@ -137,9 +137,9 @@ body{
     .info_general p{
         font-size: 20px;
         padding: 15px;
-        margin: 10px 20px;
+        margin: 10px 10px;
         margin-bottom: 70px;
-        width: 124%; 
+        width: 86%; 
     }
     
     #p_partes{
@@ -148,6 +148,6 @@ body{
     
     .img_esqueleto-completo img{
         width: 200px;
-        margin: 10px 42%;
+        margin: 10px 20%;
     }
 }
