@@ -122,3 +122,67 @@ body{
     }
 
 }
+
+/* SEGUNDO RESPONSIVE */
+
+@media only screen and  (min-width:390px) and (max-width:960px){
+
+    .nav{
+        margin: 10px 5px;
+        width: 98%;
+    }
+
+    .enlaces{
+        margin-left: 80px;
+        margin-right: 10px;
+        padding: 25px;
+        
+    }
+
+    .enlaces .ingles{
+        margin-right: 20px;
+    }
+
+    .enlaces a{
+        font-size: 20px;
+    }
+
+    .nav img{
+        margin: 10px 20px;
+        width: 50px;
+        height: 50px;
+        border-radius: 40px;
+        cursor: pointer;
+    }
+
+}
+
+@media only screen and (max-width:385px){
+    .nav{
+        margin: 10px 5px;
+        width: 98%;
+    }
+
+    .enlaces{
+        margin-left: 80px;
+        margin-right: 10px;
+        padding: 25px;
+        
+    }
+
+    .enlaces .ingles{
+        margin-right: 20px;
+    }
+
+    .enlaces a{
+        font-size: 18px;
+    }
+
+    .nav img{
+        margin: 10px 20px;
+        width: 40px;
+        height: 40px;
+        border-radius: 40px;
+        cursor: pointer;
+    }
+}
