@@ -156,7 +156,7 @@
     
     
     .derecha-esqueletoaxial p{
-        width: 160%;
+        width: 170%;
     }
     
     /*-------- PARTE DERECHA texto de funciones --------*/
@@ -171,13 +171,13 @@
     }
     
     .derecha-funciones p{
-        width: 160%;
+        width: 170%;
     }
     
     /*-------- PARTE DERECHA container-cuadros --------*/
     .container-cuadros{
         flex-direction: column;
-        margin-left: 10px;
+        margin-left: 18px;
     }
     
     /* cuadro 2*/

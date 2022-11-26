@@ -136,10 +136,10 @@
     /*-------- PARTE izquierda --------*/
     
     .izquierda_imagen img{
-        margin-left: 40px;
+        margin-left: 50px;
         width: 190px;
         position: relative;
-        left: 60px;
+        left: 70px;
         top: 10px;
     }
     
@@ -147,7 +147,7 @@
     /*-------- PARTE DERECHA --------*/
     
     .derecha{
-        width: 95%;
+        width: 103%;
     }
     
     /*-------- PARTE DERECHA texto de que es --------*/
@@ -186,6 +186,7 @@
     
     .container-cuadros{
         flex-direction: column;
+        margin: 20px;
     }
     
     /* cuadro 1*/
