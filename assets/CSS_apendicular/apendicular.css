@@ -119,4 +119,69 @@
     width: 290px;
 }
 
+@media only screen and  (min-width:390px) and (max-width:960px){
 
+    .container{
+        flex-direction: column;
+    }
+    
+    /*-------- PARTE IZQUIERDA --------*/
+    
+    .izquierda{
+        width: 30%;
+    }
+    
+    .izquierda img{
+        width: 250px;
+        margin: 20px 70px;
+        position: relative;
+    }
+    
+    
+    /*-------- PARTE DERECHA --------*/
+    
+    .derecha{
+        width: 60%;
+    }
+    
+    /*-------- PARTE DERECHA texto de que es --------*/
+    .derecha-esqueletoaxial{
+        margin: 20px;
+        width: 90%;
+    }
+    
+    .derecha-esqueletoaxial h2{
+        margin: 20px 40%;
+    }
+    
+    
+    .derecha-esqueletoaxial p{
+        width: 160%;
+    }
+    
+    /*-------- PARTE DERECHA texto de funciones --------*/
+    
+    .derecha-funciones{
+        margin: 20px;
+        width: 90%;
+    }
+    
+    .derecha-funciones h2{
+        margin: 20px 40%;
+    }
+    
+    .derecha-funciones p{
+        width: 160%;
+    }
+    
+    /*-------- PARTE DERECHA container-cuadros --------*/
+    .container-cuadros{
+        flex-direction: column;
+        margin-left: 10px;
+    }
+    
+    /* cuadro 2*/
+    .cuadro2{
+        margin: 0px 40px;
+    }
+}
